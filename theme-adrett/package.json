@@ -2,9 +2,9 @@
   "name": "theme-adrett",
   "version": "0.0.1",
   "devDependencies": {
-    "bower": "*",
-    "gulp": "*",
-    "gulp-less": "*",
-    "gulp-rename": "*"
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2"
   }
 }
