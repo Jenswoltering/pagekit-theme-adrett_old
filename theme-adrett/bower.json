@@ -1,0 +1,7 @@
+{
+  "name": "theme-adrett",
+  "dependencies": {
+    "uikit": "*"
+  },
+  "private": true
+}

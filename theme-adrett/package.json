@@ -1,0 +1,10 @@
+{
+  "name": "theme-adrett",
+  "version": "0.0.1",
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-less": "*",
+    "gulp-rename": "*"
+  }
+}
