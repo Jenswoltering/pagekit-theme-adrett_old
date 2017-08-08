@@ -33,11 +33,28 @@ return [
     ],
 
     /**
+    * Settings url
+    */
+    'settings' => '@site/settings#site-theme',
+    /**
      * Define theme configuration.
      * This is the theme's default configuration. During run-time, they will be merged with
      * settings the user has set in the backend. The default configuration can therefore
      * be overwritten.
      */
-    'config' => []
+    'config' => [
+        'navbar_sticky' => false
+    ],
+
+    /**
+    */
+    'events' => [
+
+        'view.system/site/admin/settings' => function ($event, $view) use ($app) {
+                $view->script('site-theme', 'theme:app/bundle/site-theme.js', 'site-settings');
+                $view->data('$theme', $this);
+         }
+
+    ]
 
 ];
