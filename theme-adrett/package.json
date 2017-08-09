@@ -3,24 +3,26 @@
   "version": "0.0.1",
   "devDependencies": {
     "autoprefixer": "*",
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "bower": "^1.8.0",
-    "eslint-loader": "^1.9.0",
-    "gulp": "^3.9.1",
-    "gulp-less": "^3.3.2",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "bower": "*",
+    "css-loader": "^0.28.4",
+    "gulp": "*",
+    "gulp-less": "*",
     "gulp-postcss": "*",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "*",
     "postcss-flexbugs-fixes": "*",
-    "vue-html-loader": "^1.2.4",
-    "vue-loader": "^13.0.2",
-    "vue-template-compiler": "^2.4.2",
-    "vue-template-compiler-loader": "^1.0.4",
-    "webpack": "^3.4.1"
+    "vue-hot-reload-api": "^1.3.3",
+    "vue-html-loader": "^1.2.2",
+    "vue-loader": "^8.5.2",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.1"
   },
-  "dependencies": {
-    "vue-multi-loader": "0.0.5"
+  "dependencies": {},
+  "scripts": {
+    "webpack": "webpack",
+    "gulp" : "gulp"
   }
 }

@@ -29,6 +29,7 @@ return [
     'positions' => [
 
         'sidebar' => 'Sidebar',
+        'top' => 'Top'
 
     ],
 
