@@ -31,6 +31,19 @@
 
         </nav>
 
+        <?php if ($view->position()->exists('top')) : ?>
+        <div id="top" class="tm-top uk-block <?= $params['top_style'] ?>">
+            <div class="uk-container uk-container-center">
+
+                <section class="uk-grid uk-grid-match" data-uk-grid-margin>
+                    <?= $view->position('top', 'position-grid.php') ?>
+                </section>
+
+            </div>
+        </div>
+        <?php endif ?>
+
+
 
         <div id="tm-main" class="tm-main uk-block">
             <div class="uk-container uk-container-center">
