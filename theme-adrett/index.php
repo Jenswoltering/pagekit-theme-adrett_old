@@ -34,7 +34,7 @@ return [
     ],
 
     /**
-    The default setting for the widget position
+    * The default setting for the widget position
     */
     'node' => [
 
@@ -45,7 +45,7 @@ return [
 
 
     /**
-    The default setting for the widget
+    * The default setting for the widget
     */
     'widget' => [
 
